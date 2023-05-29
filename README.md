@@ -1,5 +1,5 @@
 This repo contains the basic setup of Detox, react-native-tv-os.
-Also, the @react-native-community/netinfo library was included to demonstrate build failure.
+Also, the `$@react-native-community/netinfo` library was included to demonstrate build failure.
 Steps to reproduce build issue. This command will fail.
 ```sh
 detox build --configuration android.emu.debug
