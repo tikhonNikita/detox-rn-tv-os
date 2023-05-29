@@ -1,0 +1,27 @@
+diff --git a/node_modules/@react-native-community/netinfo/android/build.gradle b/node_modules/@react-native-community/netinfo/android/build.gradle
+index 82b3c9a..07ddada 100644
+--- a/node_modules/@react-native-community/netinfo/android/build.gradle
++++ b/node_modules/@react-native-community/netinfo/android/build.gradle
+@@ -35,7 +35,9 @@ android {
+       sourceCompatibility JavaVersion.VERSION_1_8
+       targetCompatibility JavaVersion.VERSION_1_8
+   }
+-
++  packagingOptions {
++      pickFirst '**/libc++_shared.so'
++  }
+   defaultConfig {
+     minSdkVersion getExtOrIntegerDefault('minSdkVersion')
+     targetSdkVersion getExtOrIntegerDefault('targetSdkVersion')
+diff --git a/node_modules/@react-native-community/netinfo/android/gradle.properties b/node_modules/@react-native-community/netinfo/android/gradle.properties
+index e0a52d0..d0c2f1c 100644
+--- a/node_modules/@react-native-community/netinfo/android/gradle.properties
++++ b/node_modules/@react-native-community/netinfo/android/gradle.properties
+@@ -1,4 +1,4 @@
+-ReactNativeNetInfo_compileSdkVersion=29
+-ReactNativeNetInfo_buildToolsVersion=29.0.3
++ReactNativeNetInfo_compileSdkVersion=33
++ReactNativeNetInfo_buildToolsVersion=33.0.0
+ ReactNativeNetInfo_targetSdkVersion=27
+-ReactNativeNetInfo_minSdkVersion=16
++ReactNativeNetInfo_minSdkVersion=21
