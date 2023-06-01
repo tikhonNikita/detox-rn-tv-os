@@ -50,7 +50,7 @@ module.exports = {
     emulator: {
       type: 'android.emulator',
       device: {
-        avdName: 'Android_TV_1080p_API_31'
+        avdName: 'tv_api_31'
       }
     }
   },
