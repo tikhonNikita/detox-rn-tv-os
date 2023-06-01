@@ -6201,10 +6201,10 @@ react-native-gradle-plugin@^0.71.18:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.18.tgz#20ef199bc85be32e45bb6cc069ec2e7dcb1a74a6"
   integrity sha512-7F6bD7B8Xsn3JllxcwHhFcsl9aHIig47+3eN4IHFNqfLhZr++3ElDrcqfMzugM+niWbaMi7bJ0kAkAL8eCpdWg==
 
-"react-native@npm:react-native-tvos@0.71.8-0rc4":
-  version "0.71.8-0rc4"
-  resolved "https://registry.yarnpkg.com/react-native-tvos/-/react-native-tvos-0.71.8-0rc4.tgz#e43b3f8d7fa4fc255a5b274ec50c1a54a4f484b3"
-  integrity sha512-s4rS3ep9Siv240YYl8MKlgC1eN6vySiwqe/OfV9oyxzYAE8oZGwPuU9SjhTh2dN/kFc8iBlezMwJoFJ6D+RKtg==
+"react-native@npm:react-native-tvos@0.71.8-0rc0":
+  version "0.71.8-0rc0"
+  resolved "https://registry.yarnpkg.com/react-native-tvos/-/react-native-tvos-0.71.8-0rc0.tgz#39eebd94e31df06045c79e2bf8c2e03942c9b0ba"
+  integrity sha512-IUriaVYQQKaNm2huCqm0gyQbkllDzPpRaALiyHbUY5AcdEUekDBJ9j+Wi7X+t1rjaqR9Miow8djBLs0z39Hj8Q==
   dependencies:
     "@jest/create-cache-key-function" "^29.2.1"
     "@react-native-community/cli" "10.2.2"
